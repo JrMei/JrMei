@@ -2,7 +2,7 @@
 - 👀 I’m interested in Autonomous Driving ，AI 
 - 🌱 I’m currently learning Deep Learning and Reinforce Learning
 - 📫 How to reach me : meijr0903@gmail.com
-- 😄 Pronouns: Jr
+- 😄 Pronouns: May
 - ⚡ Fun fact: Not come up yet.
 
 <!---
