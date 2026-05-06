@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drivescenariodiff"
+version = "0.1.0"
+description = "Lightweight autonomous driving scenario regression diff tool."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+drivediff = "drivediff.cli:main"
+
+[tool.setuptools]
+packages = ["drivediff"]
