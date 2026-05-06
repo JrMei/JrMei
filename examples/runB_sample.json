@@ -1,0 +1,39 @@
+{
+  "run_id": "v1.1.0",
+  "timestamp": "2026-05-06T13:00:00Z",
+  "scenarios": [
+    {
+      "scenario_id": "scene_001",
+      "passed": false,
+      "metrics": {
+        "collision_count": 1,
+        "min_ttc": 0.9,
+        "max_lateral_error": 0.35,
+        "comfort_jerk_rms": 1.8
+      },
+      "tags": ["urban", "pedestrian_crossing"]
+    },
+    {
+      "scenario_id": "scene_002",
+      "passed": true,
+      "metrics": {
+        "collision_count": 0,
+        "min_ttc": 3.0,
+        "max_lateral_error": 0.2,
+        "comfort_jerk_rms": 1.05
+      },
+      "tags": ["highway"]
+    },
+    {
+      "scenario_id": "scene_003",
+      "passed": true,
+      "metrics": {
+        "collision_count": 0,
+        "min_ttc": 2.6,
+        "max_lateral_error": 0.19,
+        "comfort_jerk_rms": 1.1
+      },
+      "tags": ["merge"]
+    }
+  ]
+}
